@@ -1,0 +1,92 @@
+/*
+ * General Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 37.5rem;
+  margin: 6.25rem auto;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.hero {
+  line-height: 0;
+}
+
+/* */
+body {
+  background: url("../images/space-background.png");
+  font-family: 'Open Sans', arial, sans-serif;
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 1.75rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+aside {
+  margin-right: 0;
+}
+
+aside.bubble {
+  float: right;
+}
+
+aside.unicorn {
+  float: left;
+}
+
+section.intro {
+  background: white;
+}
+
+section.contact {
+  background: #e6e9ea;
+}
+
+section.intro, section.contact {
+  padding: 2.5rem;
+}
